@@ -57,9 +57,9 @@ const About = () => {
                 </div>
               ))}
               <div className="mt-3">
-                <a href="#" className="btn-primary-custom" style={{ fontSize: '0.82rem', padding: '0.6rem 1.4rem' }}>
-                  Download CV
-                </a>
+             <button className="btn-primary-custom" style={{ fontSize: '0.82rem', padding: '0.6rem 1.4rem', border: 'none' }}>
+  Download CV
+</button>
               </div>
             </div>
           </div>

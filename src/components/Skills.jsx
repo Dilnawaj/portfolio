@@ -25,7 +25,7 @@ const Skills = () => {
         <div className="row g-4 mb-5">
           <div className="col-md-6">
             <div className="about-card h-100">
-              <div className="skill-category-title">// Frontend</div>
+              <div className="skill-category-title">Frontend</div>
               {frontendSkills.map(s => (
                 <div key={s.name} className="skill-item">
                   <div className="skill-name">
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
           <div className="col-md-6">
             <div className="about-card h-100">
-              <div className="skill-category-title">// Backend</div>
+              <div className="skill-category-title">Backend</div>
               {backendSkills.map(s => (
                 <div key={s.name} className="skill-item">
                   <div className="skill-name">
@@ -57,7 +57,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="text-center">
-          <div className="skill-category-title mb-3">// Tech Stack</div>
+          <div className="skill-category-title mb-3">Tech Stack</div>
           <div>
             {tools.map(t => (
               <span key={t} className="tech-badge">{t}</span>

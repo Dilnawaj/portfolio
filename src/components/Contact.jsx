@@ -43,7 +43,7 @@ const Contact = () => {
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '1rem' }}>Connect with me:</p>
                 <div className="social-links">
                   {['GitHub', 'LinkedIn', 'Twitter'].map(s => (
-                    <a key={s} href="#" style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--text-secondary)', marginRight: '1rem', textDecoration: 'none', transition: 'color 0.3s' }}
+                    <a key={s} href="https://github.com" target="_blank" rel="noreferrer" style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--text-secondary)', marginRight: '1rem', textDecoration: 'none', transition: 'color 0.3s' }}
                       onMouseEnter={e => e.target.style.color = 'var(--accent)'}
                       onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}>
                       {s}
