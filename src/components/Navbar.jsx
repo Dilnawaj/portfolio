@@ -15,7 +15,7 @@ const Navbar = () => {
     setOpen(false);
   };
 
-  const links = ['Home', 'About', 'Skills', 'Experience', 'Projects'];
+  const links = ['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'];
 
   return (
     <nav className={`navbar-custom${scrolled ? ' scrolled' : ''}`}>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <a className="navbar-brand-custom" href="#home"
             onClick={e => { e.preventDefault(); go('home'); }}>
             <span className="brand-bracket">&lt;</span>
-            <span className="brand-name">Dilnawaj Khan</span>
+            <span className="brand-name">DK</span>
             <span className="brand-bracket">&nbsp;/&gt;</span>
           </a>
           <div className="d-none d-md-flex align-items-center gap-1">
