@@ -22,7 +22,7 @@ const Footer = () => (
         ))}
       </div>
       <p className="f-copy">
-        Designed &amp; Built with ❤️ by <span>Mohammad Dilnawaj </span> · {new Date().getFullYear()}
+        Designed &amp; Built with ❤️ by <span>Dilnawaj Khan </span> · {new Date().getFullYear()}
       </p>
       <p className="f-copy" style={{ fontSize:'0.72rem', marginTop:'0.3rem' }}>
         Built with <span>React.js</span> &amp; <span>Bootstrap</span> · Deployed on <span>Vercel</span>

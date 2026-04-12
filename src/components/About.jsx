@@ -17,7 +17,7 @@ const About = () => {
     { n: '4', l: 'Companies' }, { n: '5★', l: 'HackerRank DSA' },
   ];
   const info = [
-    { k: 'Name', v: 'Mohammad Dilnawaj' },
+    { k: 'Name', v: 'Dilnawaj Khan' },
     { k: 'Role', v: 'Software Engineer' },
     { k: 'Email', v: <a href="mailto:dilnawaj4044@gmail.com">dilnawaj4044@gmail.com</a> },
     { k: 'Phone', v: '+91 8837672536' },
