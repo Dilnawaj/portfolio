@@ -51,9 +51,9 @@ const About = () => {
                 Experience with complex system integrations, Kafka-based event-driven architectures, and AWS cloud deployments.
               </p>
               <p style={{ color: 'var(--muted)', lineHeight: 1.95, fontSize: '0.94rem', marginBottom: '2rem' }}>
-                Currently at <strong style={{ color: 'var(--text)' }}>Wits Innovation Lab</strong>, previously a Technical Consultant
-                at <strong style={{ color: 'var(--accent2)' }}>EY (Ernst &amp; Young)</strong>. Also worked at NextGenVision Technology
-                and RChilli.
+                Currently at <strong style={{ color: 'var(--text)' }}>Wits Innovation Lab</strong>, previously a Software Developer
+                at <strong style={{ color: 'var(--accent2)' }}>NextGenVision Technology</strong>. Also worked at Rchilli Inc.
+                
               </p>
               <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
                 <a href="/Dilnawaj_Resume.pdf" download className="cta-primary" style={{ fontSize: '0.82rem', padding: '0.65rem 1.4rem' }}>
